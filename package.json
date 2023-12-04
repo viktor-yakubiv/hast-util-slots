@@ -1,7 +1,21 @@
 {
   "name": "hast-util-slots",
+  "type": "module",
   "version": "0.1.0",
   "description": "hast utility to extract and inject slotted elements",
   "author": "Viktor Yakubiv (yakubiv.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "exports": "./index.js",
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "devDependencies": {
+    "@types/lodash.castarray": "^4.4.9"
+  },
+  "dependencies": {
+    "hast-util-is-element": "^3.0.0",
+    "lodash.castarray": "^4.4.0",
+    "unist-util-visit-parents": "^6.0.1"
+  }
 }
