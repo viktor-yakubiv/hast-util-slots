@@ -1,0 +1,7 @@
+{
+  "name": "hast-util-slots",
+  "version": "0.1.0",
+  "description": "hast utility to extract and inject slotted elements",
+  "author": "Viktor Yakubiv (yakubiv.com)",
+  "license": "MIT"
+}
